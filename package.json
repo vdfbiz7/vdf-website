@@ -1,0 +1,19 @@
+{
+  "name": "vdf-website",
+  "version": "1.0.0",
+  "description": "VDF website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdfbiz7/vdf-website.git"
+  },
+  "author": "Victor Dorado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdfbiz7/vdf-website/issues"
+  },
+  "homepage": "https://github.com/vdfbiz7/vdf-website#readme"
+}
