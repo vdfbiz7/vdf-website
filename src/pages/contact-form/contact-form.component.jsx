@@ -8,24 +8,24 @@ import "./contact-form.styles.css";
 const ContactForm = () => {
 	return (
 		<div>
-			<h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
+			<h1 className="pt-3 text-center font-details-b pb-3">CONTACTO</h1>
 			<Jumbotron className="contact-jumbotron">
 				<Row className="d-flex justify-content-center">
 					<Col className="d-flex justify-content-center align-self-center flex-wrap">
 						<div className="m-2">
 							<a
-								href="mailto:akjha96@gmail.com"
+								href="mailto:vdfbiz7@gmail.com"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
 								<Button variant="outline-danger" title="vdfbiz7@gmail.com">
-									<i className="fas fa-envelope-square"></i> Email Me
+									<i className="fas fa-envelope-square"></i> Email
 								</Button>
 							</a>
 						</div>
 						<div className="m-2">
 							<a
-								href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/"
+								href="https://www.linkedin.com/in/vdoradof/"
 								target="_blank"
 								rel="noopener noreferrer"
 							>

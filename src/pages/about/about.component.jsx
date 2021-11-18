@@ -11,7 +11,7 @@ const About = () => {
 	return (
 		<div>
 			<div className="about">
-				<h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+				<h1 className="pt-3 text-center font-details pb-3">SOBRE MÍ</h1>
 				<Container>
 					<Row className="pt-3 pb-5 align-items-center">
 						<Col xs={12} md={6}>
@@ -27,25 +27,25 @@ const About = () => {
 						</Col>
 						<Col xs={12} md={6}>
 							<Row className=" align-items-start p-2 my-details rounded">
-								Hi there! I am <strong>&nbsp;Víctor Dorado Fernández</strong>
+								¡Hola! Soy <strong>&nbsp;Víctor Dorado Fernández</strong>
 								<br />
-								Graduated engineer in telecommunications systems, with a
-								master's degree in telecommunications application and
-								management.
+								Ingeniero graduado en sistemas de telecomunicaciones, con un
+								máster en aplicación y gestión de las telecomunicaciones.
 								<br />
-								With training and interests focused on areas such as: IoT, Big
-								Data, Wireless or software development.
+								Con una formación e intereses enfocados en ámbitos como: IoT ,
+								Big Data, Wireless o desarrollo de software.
 								<br />
-								With the experience of having worked so much in companies
-								multinationals as well as small companies providing me with each
-								of these a different vision of the professional world, as well
-								as good communication skills for the public.
+								<br />
+								Con la experiencia de haber trabajado tanto en compañías
+								multinacionales como en pequeñas aportándome cada una de estas
+								un visión diferente del mundo profesional, además de buenos
+								dotes comunicativas de cara al público.
 								<br /> <br />
 								<Col className="d-flex justify-content-center flex-wrap">
 									<div>
 										<a href="#contact">
 											<Button className="m-2" variant="outline-primary">
-												Let's talk
+												Contacta conmigo
 											</Button>
 										</a>
 									</div>
@@ -56,7 +56,7 @@ const About = () => {
 											rel="noopener noreferrer"
 										>
 											<Button className="m-2" variant="outline-success">
-												My CV
+												Mi CV
 											</Button>
 										</a>
 									</div>

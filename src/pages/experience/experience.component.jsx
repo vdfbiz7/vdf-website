@@ -10,7 +10,7 @@ import "./experience.styles.css";
 const Experience = () => {
 	return (
 		<div>
-			<h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+			<h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCIA</h1>
 			{/* Deloitte */}
 			<Jumbotron className="jumbo-style">
 				<Container>
