@@ -3,6 +3,7 @@ import MyNavbar from "./components/my-navbar/my-navbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
 import MyTitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
+import Studies from "./pages/studies/studies.component";
 import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
 import TimeLine from "./components/certificates-timeline/certificates-timeline.component";
@@ -63,6 +64,15 @@ const App = () => {
 						</Container>
 					</div>
 				</Parallax>
+			</div>
+			<div id="studies">
+				<Container className="container-box rounded">
+					<Fade duration={500}>
+						<hr />
+
+						<Studies />
+					</Fade>
+				</Container>
 			</div>
 			<div id="skills">
 				<Container className="container-box rounded">

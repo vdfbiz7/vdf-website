@@ -52,6 +52,7 @@ const MyNavbar = () => {
 						<Nav className="mr-auto ">
 							<Nav.Link href="#home">Home</Nav.Link>
 							<Nav.Link href="#about">Sobre mí</Nav.Link>
+							<Nav.Link href="#studies">Estudios</Nav.Link>
 							<Nav.Link href="#skills">Skills</Nav.Link>
 							<Nav.Link href="#experience">Experiencia</Nav.Link>
 							<Nav.Link href="#certificates">Certificaciones</Nav.Link>
