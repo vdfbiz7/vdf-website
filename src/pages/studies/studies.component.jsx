@@ -2,8 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/studies/accenture-3.svg";
-import L_DELOITTE from "../../assets/img/studies/deloitte.svg";
+import L_UPC from "../../assets/img/studies/upc.svg";
 import Tilt from "react-tilt";
 import "./studies.styles.css";
 
@@ -11,7 +10,7 @@ const Studies = () => {
 	return (
 		<div>
 			<h1 className="pt-3 text-center font-details-b pb-3">ESTUDIOS</h1>
-			{/* Deloitte */}
+			{/* MASTER */}
 			<Jumbotron className="jumbo-style">
 				<Container>
 					<Tilt options={{ max: 25 }}>
@@ -23,38 +22,28 @@ const Studies = () => {
 								<Card.Img
 									variant="top"
 									className="img-resize"
-									src={L_DELOITTE}
+									src={L_UPC}
 									alt="Deloitte logo"
 								/>
 							</Card.Header>
 							<Card.Body className="d-flex justify-content-center flex-column">
 								<div>
-									<Card.Title className="text-center">DC Analyst</Card.Title>
+									<Card.Title className="text-center">
+										Master's degree in Applied Telecommunications and
+										Engineering Management (MASTEAM)
+									</Card.Title>
 								</div>
 								<div>
 									<div className="text-center style">
 										<strong className="body-title-style ">
-											Full Stack Developer
+											Universitat Politècnica de Catalunya
 										</strong>
 										<br />
-										<strong>Technology:</strong> React JS, React Native,
-										Node.js, NestJS, PostgreSQL
+										Escuela de Ingeniería de Telecomunicación y Aeroespacial de
+										Castelldefels (EETAC)
 										<br />
-										<strong>Duration:</strong> June 2021 - Present
+										2019 - 2020
 										<br />
-										<strong> Description </strong>
-										<ul className="text-left">
-											<li>
-												Worked as Backend Developer with TypeScript Node.js and
-												NestJS
-											</li>
-
-											<li>
-												<strong>Provided</strong> application maintenance while
-												working as `Production Support` and Enhancement items
-												based on analysis of the same
-											</li>
-										</ul>
 									</div>
 								</div>
 							</Card.Body>
@@ -63,7 +52,7 @@ const Studies = () => {
 				</Container>
 			</Jumbotron>
 
-			{/* Accenture */}
+			{/* Carrera */}
 			<Jumbotron className="jumbo-style">
 				<Container>
 					<Tilt options={{ max: 25 }}>
@@ -75,51 +64,27 @@ const Studies = () => {
 								<Card.Img
 									variant="top"
 									className="img-resize"
-									src={L_ACCENTURE}
-									alt="Accenture logo"
+									src={L_UPC}
+									alt="Deloitte logo"
 								/>
 							</Card.Header>
 							<Card.Body className="d-flex justify-content-center flex-column">
 								<div>
 									<Card.Title className="text-center">
-										Associate Software Engineer
+										Grado en Ingeniería de Sistemas de Telecomunicación
 									</Card.Title>
 								</div>
 								<div>
 									<div className="text-center style">
 										<strong className="body-title-style ">
-											Full Stack Developer
+											Universitat Politècnica de Catalunya
 										</strong>
 										<br />
-										<strong>Technology:</strong> React JS, DOTNET, C#, MS-SQL,
-										Python
+										Escuela de Ingeniería de Telecomunicación y Aeroespacial de
+										Castelldefels (EETAC)
 										<br />
-										<strong>Duration:</strong> June 2019 - June 2021
+										2015 - 2019
 										<br />
-										<strong> Description </strong>
-										<ul className="text-left">
-											<li>
-												<strong>Developed &amp; enhanced</strong> multiple
-												features with customizability option across web apps
-											</li>
-											<li>
-												<strong>Developed</strong> automation system to create
-												SQL bulk query scripts that increased efficiency by 80%.
-											</li>
-											<li>
-												<strong>Provided</strong> application maintenance while
-												working as `Production Support`.
-											</li>
-											<li>
-												<strong>Performed</strong> CRUD operations on multiple
-												databases to load/ remove data according to the business
-												requirements.
-											</li>
-											<li>
-												<strong>Co-created</strong> React Document used as a
-												guide for new developers.
-											</li>
-										</ul>
 									</div>
 								</div>
 							</Card.Body>
