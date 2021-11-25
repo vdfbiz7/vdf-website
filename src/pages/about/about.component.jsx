@@ -37,9 +37,8 @@ const About = () => {
 								<br />
 								<br />
 								Con la experiencia de haber trabajado tanto en compañías
-								multinacionales como en pequeñas aportándome cada una de estas
-								un visión diferente del mundo profesional, además de buenos
-								dotes comunicativas de cara al público.
+								multinacionales como en start-up aportándome cada una de estas
+								un visión diferente del mundo profesional.
 								<br /> <br />
 								<Col className="d-flex justify-content-center flex-wrap">
 									<div>
