@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import L_UPC from "../../assets/img/studies/upc.svg";
+import L_AGH from "../../assets/img/studies/agh.svg";
 import Tilt from "react-tilt";
 import "./studies.styles.css";
 
@@ -23,7 +24,7 @@ const Studies = () => {
 									variant="top"
 									className="img-resize"
 									src={L_UPC}
-									alt="Deloitte logo"
+									alt="UPC logo"
 								/>
 							</Card.Header>
 							<Card.Body className="d-flex justify-content-center flex-column">
@@ -65,7 +66,7 @@ const Studies = () => {
 									variant="top"
 									className="img-resize"
 									src={L_UPC}
-									alt="Deloitte logo"
+									alt="UPC logo"
 								/>
 							</Card.Header>
 							<Card.Body className="d-flex justify-content-center flex-column">
@@ -84,6 +85,46 @@ const Studies = () => {
 										Castelldefels (EETAC)
 										<br />
 										2015 - 2019
+										<br />
+									</div>
+								</div>
+							</Card.Body>
+						</Card>
+					</Tilt>
+				</Container>
+			</Jumbotron>
+
+			{/* Erasmus */}
+			<Jumbotron className="jumbo-style">
+				<Container>
+					<Tilt options={{ max: 25 }}>
+						<Card>
+							<Card.Header
+								as="h5"
+								className="d-flex justify-content-center flex-wrap"
+							>
+								<Card.Img
+									variant="top"
+									className="img-resize"
+									src={L_AGH}
+									alt="AGH logo"
+								/>
+							</Card.Header>
+							<Card.Body className="d-flex justify-content-center flex-column">
+								<div>
+									<Card.Title className="text-center">
+										Estudiante de Erasmus
+									</Card.Title>
+								</div>
+								<div>
+									<div className="text-center style">
+										<strong className="body-title-style ">
+											AGH University of Science and Technology
+										</strong>
+										<br />
+										Cracovia, Polonia
+										<br />
+										2018 - 2019
 										<br />
 									</div>
 								</div>
