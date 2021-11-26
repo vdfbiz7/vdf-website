@@ -1,19 +1,43 @@
+
+
+
+Lenguajes y Softwares:
 Python
-Node.js
 Scala
-Kibana
-Elasticsearch
-AndroidStudio
-Github 
-Bitbucket
-Jira
-Firebase
-MysSQL
-Fliway
-AWS
+Javascript
+Java
 Spring
+C#
+Node.js
+Android
+Kibana
+Test: JUnit
+ACL
+GIS
+
+
+Databases: 
+SQL
+Firebase
+Elasticsearch
+
+Control de versiones:
+Github
+Bitbucket
+Flyway
+
+
+Automatizacion y Virtualizacion:
+AWS
 Docker
 Jenkins
 Terraform
-ACL
-GIS
+Nexus
+
+Frameworks, IDEs & Technologies tools
+Jira
+IntelliJ IDEA
+Visaul Studio Code
+Android Studio
+Postman
+
