@@ -147,7 +147,7 @@ const Experience = () => {
 											Anpane Telecom
 										</strong>
 										<br />
-										<strong>Tecnología:</strong> GIS
+										<strong>Tecnología:</strong> APX-GIS
 										<br />
 										<strong>Duración:</strong> Junio 2018 - Septiembre 2021
 										<br />

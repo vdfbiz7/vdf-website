@@ -22,11 +22,11 @@ const Skills = () => {
 							<Card.Body>
 								{/* Frontend */}
 								<Card.Title className="text-center  card-title">
-									Frontend
+									Software y programación
 								</Card.Title>
 								<hr />
 								<Card.Text className="card-text d-flex justify-content-start flex-column">
-									{skills.frontend.map((skill, index) => (
+									{skills.programming.map((skill, index) => (
 										<span className="p-2" key={index}>
 											<a
 												className="text-dark text-decoration-none"
@@ -54,11 +54,11 @@ const Skills = () => {
 						<Card className="focus mt-2 mb-2">
 							<Card.Body>
 								<Card.Title className="text-center  card-title">
-									Backend
+									Automatizacion y Virtualizacion
 								</Card.Title>
 								<hr />
 								<Card.Text className="card-text d-flex justify-content-start flex-column">
-									{skills.backend.map((skill, index) => (
+									{skills.automatizacionVirtualizacion.map((skill, index) => (
 										<span className="p-2" key={index}>
 											<a
 												className="text-dark text-decoration-none"
@@ -80,15 +80,16 @@ const Skills = () => {
 							</Card.Body>
 						</Card>
 
-						{/* Hosting Platforms */}
-						<Card className="focus mt-2 mb-2 ">
+						{/* Version Control */}
+
+						<Card className="focus mt-2 mb-2">
 							<Card.Body>
 								<Card.Title className="text-center  card-title">
-									Hosting Platforms
+									Version control
 								</Card.Title>
 								<hr />
 								<Card.Text className="card-text d-flex justify-content-start flex-column">
-									{skills.hostingPlatforms.map((skill, index) => (
+									{skills.versionControl.map((skill, index) => (
 										<span className="p-2" key={index}>
 											<a
 												className="text-dark text-decoration-none"
@@ -111,16 +112,16 @@ const Skills = () => {
 						</Card>
 					</Col>
 
-					{/* Programming Languages */}
 					<Col md={4}>
-						<Card className="focus mt-2 mb-2">
+						{/* Frameworks, IDEs and Technologies tools */}
+						<Card className="focus mt-2 mb-2 ">
 							<Card.Body>
 								<Card.Title className="text-center  card-title">
-									Programming Languages
+									Frameworks and Technologies
 								</Card.Title>
 								<hr />
 								<Card.Text className="card-text d-flex justify-content-start flex-column">
-									{skills.programmingLanguages.map((skill, index) => (
+									{skills.frameworksIDEandTech.map((skill, index) => (
 										<span className="p-2" key={index}>
 											<a
 												className="text-dark text-decoration-none"
@@ -169,34 +170,6 @@ const Skills = () => {
 											</a>
 										</span>
 									))}
-								</Card.Text>
-							</Card.Body>
-						</Card>
-						{/* Version Control */}
-
-						<Card className="focus mt-2 mb-2">
-							<Card.Body>
-								<Card.Title className="text-center  card-title">
-									Version Control
-								</Card.Title>
-								<hr />
-								<Card.Text className="card-text d-flex justify-content-start flex-column">
-									<span className="p-2">
-										<a
-											className="text-dark text-decoration-none"
-											href={skills.versionControl[0].link}
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											<Image
-												src={skills.versionControl[0].imgSrc}
-												alt={skills.versionControl[0].imgAltText}
-												rounded
-												className="image-style m-1"
-											></Image>{" "}
-											{skills.versionControl[0].skillName}
-										</a>
-									</span>
 								</Card.Text>
 							</Card.Body>
 						</Card>

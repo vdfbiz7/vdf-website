@@ -2,44 +2,43 @@
 
 
 Lenguajes y Softwares:
-Python
-Scala
-Javascript
-Java
-Spring
-C#
-Node.js
-express
-Android
-Kibana
-Bootstrap
-Test: JUnit
-ACL
-GIS
+Python*+
+Scala*
+Javascript*+
+Java*+
+Spring*
+C#*
+Node.js*+
+express*+
+Android*
+Kibana*
+Bootstrap*+
+Test: JUnit*
+
 
 
 Databases: 
-SQL
-Firebase
-Elasticsearch
+SQL*
+Firebase*+
+Elasticsearch*
 
 Control de versiones:
-Github
-Bitbucket
-Flyway
+Github*+
+Bitbucket*
+Flyway*
 
 
 Automatizacion y Virtualizacion:
-AWS
-Docker
-Jenkins
-Terraform
-Nexus
+AWS*
+Docker*
+Jenkins*
+Terraform*
 
 Frameworks, IDEs & Technologies tools
-Jira
-IntelliJ IDEA
-Visaul Studio Code
-Android Studio
-Postman
-
+Jira*
+IntelliJ IDEA*
+Visual Studio Code*
+Android Studio*
+Postman*
+ACL*
+GIS*
