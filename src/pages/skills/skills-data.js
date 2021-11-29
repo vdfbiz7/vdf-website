@@ -31,16 +31,34 @@ import L_GIS from "../../assets/img/skills/gis.svg";
 export const skills = {
 	programming: [
 		{
+			link: "https://www.python.org/",
+			imgAltText: "Python",
+			imgSrc: L_PYTHON,
+			skillName: "Python",
+		},
+		{
+			link: "https://www.scala-lang.org/",
+			imgAltText: "Scala",
+			imgSrc: L_SCALA,
+			skillName: "Scala",
+		},
+		{
 			link: "https://www.javascript.com/",
 			imgAltText: "JavaScript",
 			imgSrc: L_JAVASCRIPT,
 			skillName: "JavaScript",
 		},
 		{
-			link: "https://getbootstrap.com/",
-			imgAltText: "Bootstrap",
-			imgSrc: L_BOOTSTRAP,
-			skillName: "Bootstrap",
+			link: "https://docs.microsoft.com/es-es/dotnet/csharp/",
+			imgAltText: "C#",
+			imgSrc: L_CSHARP,
+			skillName: "C#",
+		},
+		{
+			link: "https://www.java.com/es/",
+			imgAltText: "Java",
+			imgSrc: L_JAVA,
+			skillName: "Java",
 		},
 		{
 			link: "https://nodejs.org/en/",
@@ -54,35 +72,12 @@ export const skills = {
 			imgSrc: L_EXPRESS,
 			skillName: "Express",
 		},
-		{
-			link: "https://www.python.org/",
-			imgAltText: "Python",
-			imgSrc: L_PYTHON,
-			skillName: "Python",
-		},
-		{
-			link: "https://www.scala-lang.org/",
-			imgAltText: "Scala",
-			imgSrc: L_SCALA,
-			skillName: "Scala",
-		},
-		{
-			link: "https://www.java.com/es/",
-			imgAltText: "Java",
-			imgSrc: L_JAVA,
-			skillName: "Java",
-		},
+
 		{
 			link: "https://spring.io/",
 			imgAltText: "Spring",
 			imgSrc: L_SPRING,
 			skillName: "Spring",
-		},
-		{
-			link: "https://docs.microsoft.com/es-es/dotnet/csharp/",
-			imgAltText: "C#",
-			imgSrc: L_CSHARP,
-			skillName: "C#",
 		},
 		{
 			link: "https://developer.android.com/",
@@ -95,6 +90,12 @@ export const skills = {
 			imgAltText: "Kibana",
 			imgSrc: L_KIBANA,
 			skillName: "Kibana",
+		},
+		{
+			link: "https://getbootstrap.com/",
+			imgAltText: "Bootstrap",
+			imgSrc: L_BOOTSTRAP,
+			skillName: "Bootstrap",
 		},
 		{
 			link: "https://junit.org/junit5/",
