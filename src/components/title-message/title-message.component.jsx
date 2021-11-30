@@ -39,7 +39,7 @@ const TitleMessage = () => (
 					¡Hola! Soy
 					<br />
 					<span>
-						<strong>Víctor Dorado Fernández</strong>
+						<strong>Víctor Dorado</strong>
 					</span>
 				</div>
 				<div className="sub">

@@ -27,7 +27,7 @@ const About = () => {
 						</Col>
 						<Col xs={12} md={6}>
 							<Row className=" align-items-start p-2 my-details rounded">
-								¡Hola! Soy <strong>&nbsp;Víctor Dorado Fernández</strong>
+								¡Hola! Soy <strong>&nbsp;Víctor Dorado</strong>
 								<br />
 								Ingeniero graduado en sistemas de telecomunicaciones, con un
 								máster en aplicación y gestión de las telecomunicaciones.

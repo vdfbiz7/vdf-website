@@ -5,7 +5,7 @@ const FooterPanel = () => {
 	return (
 		<div>
 			<div className="py-2 text-center footer-style">
-				© VICTOR DORADO FERNANDEZ &nbsp; {new Date().getFullYear()}
+				© VICTOR DORADO &nbsp; {new Date().getFullYear()}
 			</div>
 		</div>
 	);
