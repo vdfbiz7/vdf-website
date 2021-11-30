@@ -1,0 +1,44 @@
+
+
+
+Lenguajes y Softwares:
+Python*+
+Scala*
+Javascript*+
+Java*+
+Spring*
+C#*
+Node.js*+
+express*+
+Android*
+Kibana*
+Bootstrap*+
+Test: JUnit*
+
+
+
+Databases: 
+SQL*
+Firebase*+
+Elasticsearch*
+
+Control de versiones:
+Github*+
+Bitbucket*
+Flyway*
+
+
+Automatizacion y Virtualizacion:
+AWS*
+Docker*
+Jenkins*
+Terraform*
+
+Frameworks, IDEs & Technologies tools
+Jira*
+IntelliJ IDEA*
+Visual Studio Code*
+Android Studio*
+Postman*
+ACL*
+GIS*
