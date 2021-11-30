@@ -36,7 +36,7 @@ const TitleMessage = () => (
 		<div className="titleMessage">
 			<div className="heading">
 				<div className="main text-center mb-3">
-					¡Hola! Yo soy
+					¡Hola! Soy
 					<br />
 					<span>
 						<strong>Víctor Dorado Fernández</strong>

@@ -32,13 +32,16 @@ const About = () => {
 								Ingeniero graduado en sistemas de telecomunicaciones, con un
 								máster en aplicación y gestión de las telecomunicaciones.
 								<br />
-								Con una formación e intereses enfocados en ámbitos como: IoT ,
-								Big Data, Wireless o desarrollo de software.
+								Con una formación e intereses enfocados en ámbitos como: IoT,
+								desarrollo de software, Big Data o Wireless.
 								<br />
 								<br />
 								Con la experiencia de haber trabajado tanto en compañías
 								multinacionales como en start-up aportándome cada una de estas
 								un visión diferente del mundo profesional.
+								<br />
+								<br />
+								¡Bienvenidos a mi portfolio!
 								<br /> <br />
 								<Col className="d-flex justify-content-center flex-wrap">
 									<div>
