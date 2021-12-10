@@ -1,6 +1,6 @@
 {
 	"name": "vdf-website",
-	"homepage": "http://victordf.com",
+	"homepage": "http://www.victordf.com",
 	"version": "1.0.0",
 	"private": true,
 	"dependencies": {
