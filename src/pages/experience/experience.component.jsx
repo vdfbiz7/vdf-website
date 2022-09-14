@@ -49,7 +49,7 @@ const Experience = () => {
 												Desarrollo del producto centrado en operations research.
 											</li>
 											<li>
-												Cración funcionalidades que sean aplicables en el mundo
+												Creación funcionalidades que sean aplicables en el mundo
 												real.
 											</li>
 											<li>
